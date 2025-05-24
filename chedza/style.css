@@ -1,0 +1,109 @@
+
+body {
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    background-color: #fff0f5;
+    color: #4d2c3d;
+
+}
+header{
+    background-color: #f8a5c2;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+header h1 {
+    font-family: 'playfair display', serif;
+    font-size: 2.8em;
+    color: #fff0f5;
+    margin: 0;
+    
+}
+nav {
+    margin-top: 10px;
+}
+nav a {
+    margin: 0 15px;
+    color: #fff0f5;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero-text h2 {
+    font-size: 3rem;
+    color: #b03a5b;
+    font-family: 'playfair display' serif;
+    
+}
+.hero-text p {
+    font-size: 1.3em;
+    color: #6e4b57;
+    margin: 15px 0;
+}
+.shop-now {
+    background-color: #f8a5c2;
+    padding: 14px 28px;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+    box-shadow: 0 4px 12px rgba(248, 165, 194,0.4);
+}
+.shop-now:hoover{
+    background-color: #e97fa3;
+}
+.quote-section{
+    font-style: italic;
+    text-align: center;
+    margin: 60px auto;
+    font-size: 1.2em;
+    color: #4d2c3d;
+    max-width: 700px;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.feature-box {
+    background-color: #fff0f5;
+    padding: 20px;
+    border-radius: 12px;
+     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+     width: 280px;
+     text-align: center;
+}
+.feature-box h3 {
+    font-family: 'playfair display', serif;
+    color: #b03a5b;
+}
+footer {
+    background-color: #f8a5c2;
+    text-align: center;
+    color: white;
+    padding: 20px 10px;
+    margin-top: 50px; 
+    
+}.shop-now-btn {
+    background-color: #f8a5c2;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 20px ;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition:background-colour 0.3s ease ;
+}
+.shop-now-btn:hoover {
+    background-color: #e27fa0;
+}
